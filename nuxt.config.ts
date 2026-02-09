@@ -2,6 +2,9 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-02-09',
   devtools: { enabled: true },
+  nitro: {
+    preset: 'vercel',
+  },
   css: ['~/assets/css/main.css'],
   app: {
     head: {
